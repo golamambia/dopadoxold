@@ -1,0 +1,420 @@
+/* Responsive */
+
+@media (width: 1920px) {
+    .banner ul.banner-logo li:nth-child(2) {
+        margin-bottom: 260px;
+    }
+}
+
+@media (min-width: 1701px) and (max-width: 1920px) {}
+
+@media (min-width: 1600px) and (max-width: 1700px) {}
+
+@media (min-width: 1440px) and (max-width: 1599px) {}
+
+@media (min-width: 1366px) and (max-width: 1439px) {}
+
+@media (min-width: 1280px) and (max-width: 1367px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner .banner-slider .img-hldr img {
+        height: 570px;
+    }
+    .banner {
+        height: 570px;
+    }
+    .hm-iq-tags .hldr {
+        padding-left: 5%;
+    }
+    .hm-iq-tags h2 {
+        font-size: 45px;
+    }
+    .hm-iq-tags ul li h3 {
+        font-size: 25px;
+    }
+    .hm-moa .hldr {
+        text-align: center;
+    }
+}
+
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header .navbar-brand {
+        width: 80px;
+    }
+    .header .navbar-nav li a {
+        font-size: 13px;
+        padding: 0 10px !important;
+    }
+    .header .navbar {
+        padding: .5rem 0;
+    }
+    .banner ul.banner-logo li {
+        padding: 20px 10px 30px 30px;
+    }
+    .banner {
+        height: 500px;
+    }
+    .banner .banner-slider .txt {
+        top: 22%;
+    }
+    .banner ul.banner-logo li:nth-child(2) {
+        margin-bottom: 210px;
+    }
+    .banner .banner-slider .img-hldr img {
+        height: 500px;
+    }
+    .hm-abt h1 {
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .hmabt-bottom {
+        padding: 20px 0;
+    }
+    .hm-video video {
+        height: 180px;
+    }
+    .hm-video {
+        padding: 25px 0;
+    }
+    .hm-step {
+        padding: 25px 0;
+    }
+    .hm-step ul li {
+        font-size: 15px;
+    }
+    .hm-step ul li:first-child {
+        font-size: 20px;
+    }
+    .hm-bsc h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .hm-bsc ul {
+        margin-top: 15px;
+    }
+    .hm-bsc ul li {
+        vertical-align: top;
+    }
+    .hm-bsc {
+        padding: 25px 0;
+    }
+    .hm-iq-tags {
+        padding: 25px 0 0;
+    }
+    .hm-iq-tags h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .hm-iq-tags .hldr {
+        padding: 0;
+    }
+    .hm-tech-group {
+        padding: 25px 0 0;
+        text-align: center;
+    }
+    .hm-tech-group .txt {
+        width: 100%;
+    }
+    .hm-labeling {
+        padding: 25px 0 0;
+    }
+    .hm-labeling .labeling .icon {
+        width: 70px;
+    }
+    .hm-labeling .logo-labeling {
+        width: 80px;
+    }
+    .hm-moa {
+        padding: 25px 0 0;
+    }
+    .hm-moa h2 {
+        font-size: 35px;
+    }
+    .hm-moa h3 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .hm-moa .hldr {
+        text-align: center;
+    }
+    .hm-testimonial {
+        padding: 25px 0;
+    }
+    .hm-testimonial h2 {
+        font-size: 35px;
+    }
+    .hm-contact h2 {
+        font-size: 30px;
+        background: none;
+        text-align: center;
+        padding: 0;
+    }
+    .hm-contact h2 span {
+        font-size: 22px;
+    }
+    .hm-contact {
+        padding: 25px 0 0;
+    }
+}
+
+
+/* xs */
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-toggler {
+        display: block;
+    }
+    .header .navbar-brand {
+        width: 60px;
+        margin-left: 15px;
+    }
+    .header .navbar-collapse {
+        position: inherit;
+    }
+    .header .navbar-nav li a {
+        padding: 15px !important;
+        border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+    }
+    .header .navbar-nav {
+        background: white;
+        z-index: 999;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .header .navbar {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .header .navbar-nav li .dropdown-menu {
+        margin-top: 0;
+    }
+    .banner .banner-slider .txt h1 {
+        font-size: 18px;
+        background-size: 20px;
+        padding-left: 30px;
+        margin: 0;
+        line-height: 30px;
+    }
+    .banner .banner-slider .txt {
+        padding: 10px 20px;
+    }
+    .banner .banner-slider .txt p {
+        padding-left: 30px;
+        margin: 0;
+    }
+    .banner ul.banner-logo li {
+        padding: 10px;
+    }
+    .banner {
+        height: 330px;
+    }
+    .banner .banner-slider .txt {
+        top: 22%;
+    }
+    .banner ul.banner-logo li:nth-child(2) {
+        margin-bottom: 125px;
+    }
+    .banner .banner-slider .img-hldr {
+        padding-left: 20%;
+    }
+    .banner ul.banner-logo {
+        width: 20%;
+    }
+    .banner .banner-slider .img-hldr img {
+        height: 330px;
+    }
+    .hm-abt {
+        padding: 20px 0;
+    }
+    .hm-abt h1 {
+        margin-top: 20px;
+        font-size: 25px;
+        background-size: 20px;
+        padding-left: 30px;
+    }
+    .hmabt-bottom {
+        padding: 20px 0;
+        margin-top: 0;
+    }
+    .hm-video video {
+        height: 180px;
+    }
+    .hm-video {
+        padding: 20px 0;
+    }
+    .hm-step {
+        padding: 20px 0;
+    }
+    .hm-step ul li {
+        font-size: 15px;
+    }
+    .hm-step ul li:first-child {
+        font-size: 20px;
+    }
+    .hm-bsc h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .hm-bsc ul {
+        margin-top: 15px;
+    }
+    .hm-bsc ul li {
+        vertical-align: top;
+        width: 100%;
+        padding: 0;
+    }
+    .hm-bsc {
+        padding: 20px 0;
+    }
+    .hm-iq-tags {
+        padding: 20px 0;
+    }
+    .hm-iq-tags h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .hm-iq-tags .hldr {
+        padding: 0;
+    }
+    .hm-tech-group {
+        padding: 20px 0 0;
+        text-align: center;
+    }
+    .hm-tech-group .txt {
+        width: 100%;
+    }
+    .hm-labeling {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .hm-labeling .labeling .icon {
+        width: 70px;
+    }
+    .hm-labeling .logo-labeling {
+        width: 80px;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .hm-labeling .labeling {
+        text-align: center;
+    }
+    .hm-labeling .labeling .txt {
+        width: 100%;
+        padding: 0;
+    }
+    .hm-labeling .labeling .txt p {
+        margin: 0;
+    }
+    .hm-moa {
+        padding: 20px 0 0;
+    }
+    .hm-moa h2 {
+        font-size: 25px;
+    }
+    .hm-moa h3 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    .hm-moa .hldr h6 {
+        width: auto;
+    }
+    .hm-moa .hldr .icn {
+        width: 50px;
+    }
+    .hm-moa .hldr {
+        text-align: center;
+    }
+    .hm-testimonial {
+        padding: 20px 0;
+    }
+    .hm-testimonial h2 {
+        font-size: 25px;
+        padding: 0;
+        background: none;
+        margin-bottom: 15px;
+    }
+    .hm-contact h2 {
+        font-size: 25px;
+        background: none;
+        text-align: center;
+        padding: 0;
+    }
+    .hm-contact h2 span {
+        font-size: 22px;
+    }
+    .hm-contact {
+        padding: 20px 0 0;
+    }
+    .hm-bsc .img-hldr img {
+        max-width: 80%;
+    }
+    .hm-bsc .img-hldr {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .hm-bsc h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .hm-iq-tags ul li {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .hm-iq-tags ul li h3 {
+        width: 100%;
+        font-size: 22px;
+    }
+    .hm-iq-tags ul li .tag-img {
+        width: 100%;
+        margin: 0 0 5px;
+    }
+    .hm-iq-tags ul li p {
+        width: 100%;
+    }
+    .hm-iq-tags ul.imgg li {
+        width: 100%;
+    }
+    .hm-iq-tags ul.imgg li .img-hldr {
+        width: 100%;
+        height: auto !important;
+    }
+    .hm-iq-tags ul.imgg li:nth-child(3) .img-hldr {
+        margin-top: 0;
+    }
+    .hm-tech-group h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .hm-tech-group .txt h4 {
+        font-size: 18px;
+    }
+    .hm-labeling h2 {
+        transform: none;
+        text-align: center;
+        font-size: 25px;
+        margin: 0 0 15px;
+    }
+    .hm-labeling .img-hldr {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* XS Portrait */
+
+@media screen and (max-width: 640px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 414px) {}
+
+@media (max-width:375px) {}
+
+@media (max-width:360px) {}
+
+@media (max-width:320px) {}
